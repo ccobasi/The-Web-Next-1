@@ -236,3 +236,122 @@ nav {
   color: #555;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
+
+.most-popular {
+  margin-bottom: 2em;
+  padding-top: 24px;
+  margin: auto;
+  max-width: 1100px;
+}
+
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1100px;
+  margin-bottom: 0;
+}
+
+.popular-container {
+  position: relative;
+}
+
+.img-popular1,
+.img-popular2,
+.img-popular3 {
+  position: relative;
+
+  color: white;
+  line-height: 1;
+}
+
+.img-popular4 {
+  margin: 0;
+}
+
+.img-popular1,
+.img-popular2,
+.img-popular3 {
+  position: relative;
+  color: white;
+  line-height: 1;
+}
+
+.img-popular1 a,
+.img-popular2 a,
+.img-popular3 a {
+  color: #f42;
+}
+
+.popular-text {
+  position: absolute;
+  bottom: 5px;
+  left: 16px;
+  z-index: 1;
+  color: #fff;
+}
+
+.popular-text a {
+  color: #fff;
+}
+
+.popular-text ul {
+  display: flex;
+  font-size: 12px;
+}
+
+.float-container1,
+.float-container2,
+.float-container3 {
+  position: relative;
+}
+
+.float-container1 img {
+  float: right;
+  width: 100%;
+}
+
+.text-img {
+  max-width: 360px;
+  text-align: left;
+  line-height: 1;
+}
+
+.text-img img {
+  float: right;
+}
+
+.text-img h4,
+h3 {
+  max-width: 250px;
+  font-size: 14px;
+}
+
+.text-img h3 {
+  margin: 10px;
+}
+
+.float-container1 h3,
+.float-container2 h3,
+.float-container3 h3,
+h4 {
+  color: #f42;
+  float: left;
+}
+
+.link ul {
+  display: block;
+  list-style-type: disc;
+  font-size: 14px;
+  color: #f42;
+}
+
+.float-link {
+  padding-top: 100px;
+  padding-left: 5px;
+}
+
+.link li a {
+  text-decoration: none;
+  color: #aaa;
+}
