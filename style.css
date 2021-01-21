@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #000;
+  color: #333;
+  height: 30px;
+}
+
+.nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
