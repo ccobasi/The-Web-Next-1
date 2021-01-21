@@ -442,6 +442,36 @@ h4 {
   cursor: pointer;
 }
 
+.grid-container-4 {
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.deals-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.deals-header h2 a {
+  color: #f42;
+  font-weight: bold;
+  line-height: 1.1;
+  align-self: left;
+}
+
+.deals-header a {
+  color: #f42;
+}
+
+.latest-deal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
 .footer-links-social {
   list-style: none;
   text-align: center;
