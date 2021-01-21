@@ -173,3 +173,66 @@ nav {
   font-family: Helvetica, Arial, sans-serif;
   padding: 2px;
 }
+
+.latest-fund {
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1100px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.funding-investment-box {
+  background-color: #fffaf8;
+  height: 265px;
+}
+
+.funding-image {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  z-index: 10;
+  margin: 10px;
+  margin-top: -70px;
+}
+
+.funding-box-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-red-title {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
+
+.funding-mid-body {
+  padding: 16px;
+}
+
+.funding-mid-body-div {
+  display: flex;
+  align-items: center;
+}
+
+.funding-details {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px;
+  color: #555;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
