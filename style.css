@@ -32,6 +32,34 @@ nav {
   text-decoration: none;
 }
 
+.nav .search-container {
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+.nav .search-container {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+}
+
+.nav .search-container button i {
+  color: #555;
+}
+.nav-icons {
+  float: right;
+}
+
 .wrap {
   max-width: 1300px;
   margin: 0 auto;
@@ -44,6 +72,7 @@ nav {
 .wrap ul {
   display: inline-flex;
   margin-right: 10px;
+  position: relative;
 }
 
 .wrap li {
@@ -61,6 +90,8 @@ nav {
   padding-top: 20px 0;
   box-shadow: 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
   font-size: 14px;
+  justify-content: space-between;
+  width: 1300px;
 }
 
 .menu-bar ul {
@@ -560,6 +591,18 @@ h4 {
     grid-gap: 5px;
   }
 
+  nav {
+    display: none;
+  }
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
   .latest-news-one {
     display: inline;
     float: left;
@@ -619,5 +662,96 @@ h4 {
     left: 16px;
     z-index: 1;
     font-size: 50%;
+  }
+}
+
+.navbar-768px {
+  background: white;
+  visibility: visible;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  height: 48px;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+@media (max-width: 1024px) {
+  .main-section {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .menu-bar {
+    padding-left: 106px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .grid-container,
+  .grid-container-2,
+  .grid-container-3 {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    padding: 10px;
+    grid-gap: 10px;
+    /* margin: 0 auto; */
+  }
+
+  .grid-container-4 {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+
+  .white-top-bar,
+  .black-top-bar {
+    visibility: visible;
+    width: auto;
+  }
+
+  .hero h1 {
+    bottom: 8px;
+    left: 16px;
+    z-index: 1;
+    font-size: 20px;
+  }
+
+  .hero-image {
+    transition: background-color 0.4s ease;
+    z-index: 2;
+    margin-top: 24px;
+  }
+
+  .black-top-bar,
+  .white-top-bar {
+    margin-left: 106px;
+  }
+
+  .navbar-1024px-left {
+    display: block;
+    background: black;
+    position: absolute;
+    width: 106px;
+    height: 70px;
+    z-index: 10;
+  }
+
+  .navbar-1024px-left img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 66px;
+    align-self: center;
+    justify-self: center;
+    vertical-align: middle;
+  }
+
+  .navbar-1024px-left:hover {
+    background-image: url(images/home-1.gif);
+    background-position: 50%;
   }
 }
