@@ -342,8 +342,8 @@ h4 {
   font-size: 14px;
 }
 
-.text-img h4,
-h3 {
+.text-img h3,
+h4 {
   max-width: 250px;
   font-size: 14px;
 }
@@ -393,7 +393,6 @@ h4 {
   padding: 0 20px;
   position: relative;
   height: 160px;
-  padding: 3em 0 2em;
   display: flex;
   flex-direction: row;
   align-items: center;
