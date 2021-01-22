@@ -339,6 +339,10 @@ nav {
   float: right;
 }
 
+h4 {
+  font-size: 14px;
+}
+
 .text-img h4,
 h3 {
   max-width: 250px;
