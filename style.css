@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -28,7 +27,6 @@ nav {
   float: left;
   color: white;
   text-align: center;
-  /* padding: 14px 16px; */
   text-decoration: none;
 }
 
@@ -38,24 +36,10 @@ nav {
   right: 0;
 }
 
-.nav .search-container {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-  width: 70px;
-  height: 30px;
-  position: absolute;
-  right: 0;
-}
-
 .nav .search-container button i {
   color: #555;
 }
+
 .nav-icons {
   float: right;
 }
