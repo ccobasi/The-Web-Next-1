@@ -88,7 +88,7 @@ nav {
   height: 60px;
   background-color: #fff;
   align-items: center;
-  padding-top: 20px 0;
+  padding-top: 20px;
   box-shadow: 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
   font-size: 14px;
   justify-content: space-between;
@@ -491,7 +491,6 @@ h4 {
   color: #f42;
   font-weight: bold;
   line-height: 1.1;
-  align-self: left;
 }
 
 .deals-header a {
@@ -523,7 +522,7 @@ h4 {
 .footer-links-social li {
   display: inline-block;
   margin: 0 12px;
-  color: #aaa(204, 178, 178);
+  color: rgb(204, 178, 178);
 }
 
 .footer-links-social li a {
