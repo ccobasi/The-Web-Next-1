@@ -85,6 +85,17 @@ nav {
   font-weight: bold;
 }
 
+.footer-links-index li:hover,
+.footer-links-index li:focus {
+  color: white;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 12px;
+  color: rgb(204, 178, 178);
+}
+
 .menu-bar li:hover {
   color: black;
 }
@@ -284,14 +295,6 @@ nav {
   margin: 0;
 }
 
-.img-popular1,
-.img-popular2,
-.img-popular3 {
-  position: relative;
-  color: white;
-  line-height: 1;
-}
-
 .img-popular1 a,
 .img-popular2 a,
 .img-popular3 a {
@@ -371,46 +374,6 @@ h4 {
   color: #aaa;
 }
 
-.latest-News {
-  margin: 0 auto;
-  justify-content: space-between;
-  max-width: 1100px;
-}
-
-.latest-News h2 {
-  color: #f42;
-}
-
-.grid-container-2 {
-  display: grid;
-  grid-template: auto / 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.latest-news-one {
-  padding: 2px;
-}
-
-.latest-news-image > img {
-  width: 240px;
-}
-
-.latest-news-title {
-  font-size: 14px;
-  font-weight: 700;
-  font-family: "Lato", Arial, sans-serif;
-  padding: 2px;
-}
-
-.latest-news-author {
-  font-size: 12px;
-  font-weight: 400;
-  color: rgb(170, 170, 170);
-  font-family: Helvetica, Arial, sans-serif;
-  padding: 2px;
-}
-
 .footer-menu {
   background-color: rgb(29, 28, 28);
   height: 150px;
@@ -463,6 +426,10 @@ h4 {
   grid-gap: 10px;
 }
 
+.deals-header a {
+  color: #f42;
+}
+
 .deals-header {
   display: flex;
   align-items: center;
@@ -476,36 +443,16 @@ h4 {
   line-height: 1.1;
 }
 
-.deals-header a {
-  color: #f42;
-}
-
 .latest-deal {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
 }
 
-.wrapper {
-  padding: 3em 0 2em;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background: rgb(19, 19, 19);
-}
-
 .footer-links-social {
   list-style: none;
   text-align: center;
   margin-bottom: 25px;
-}
-
-.footer-links-social li {
-  display: inline-block;
-  margin: 0 12px;
-  color: rgb(204, 178, 178);
 }
 
 .footer-links-social li a {
@@ -550,11 +497,6 @@ h4 {
 
 .social-icon-email {
   background-position: -576px -576px;
-}
-
-.footer-links-index li:hover,
-.footer-links-index li:focus {
-  color: white;
 }
 
 .footer-legal {
@@ -631,11 +573,6 @@ h4 {
   .hero-image img {
     width: 100%;
     max-height: 120px;
-  }
-
-  .hero-image img {
-    width: 100%;
-    max-height: 100px;
   }
 
   .hero-image > *:first-child {
@@ -739,10 +676,6 @@ h4 {
   .black-top-bar {
     visibility: visible;
     width: auto;
-  }
-
-  .black-top-bar,
-  .white-top-bar {
     margin-left: 106px;
   }
 
