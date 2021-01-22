@@ -67,6 +67,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .wrap ul {
@@ -715,5 +716,88 @@ h4 {
 
   .fund-value {
     margin-left: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .grid-container-3 > *:first-child {
+    display: none;
+  }
+
+  .grid-container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    grid-gap: 5px;
+  }
+
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .grid-container-4 > *:first-child {
+    display: none;
+  }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menu-bar {
+    padding-left: 106px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .white-top-bar,
+  .black-top-bar {
+    visibility: visible;
+    width: auto;
+  }
+
+  .black-top-bar,
+  .white-top-bar {
+    margin-left: 106px;
+  }
+
+  .navbar-1024px-left {
+    display: block;
+    background: black;
+    position: absolute;
+    width: 106px;
+    height: 70px;
+    z-index: 10;
+  }
+
+  .navbar-1024px-left img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 66px;
+    align-self: center;
+    justify-self: center;
+    vertical-align: middle;
+  }
+
+  .navbar-768px {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .navbar-768px {
+    display: none;
+  }
+
+  .navbar-1024px-left {
+    display: none;
+  }
+
+  .search-container {
+    position: absolute;
+    right: 0;
   }
 }
