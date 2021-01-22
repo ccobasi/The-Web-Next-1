@@ -85,15 +85,15 @@ nav {
   font-weight: bold;
 }
 
-.footer-links-index li:hover,
-.footer-links-index li:focus {
-  color: white;
-}
-
 .footer-links-social li {
   display: inline-block;
   margin: 0 12px;
   color: rgb(204, 178, 178);
+}
+
+.footer-links-index li:hover,
+.footer-links-index li:focus {
+  color: white;
 }
 
 .menu-bar li:hover {
